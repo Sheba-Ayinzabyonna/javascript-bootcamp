@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Serif';
+    letter-spacing: -0.031rem;
+    
+   
+}
+
+.main-container{
+    width: 80%;
+    height:auto;
+    padding: 2rem;
+    background-color:#111827 ;
+    border-radius: .8rem;
+    align-items: center;
+    
+    
+   
+}
+
+.top{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+
+}
+
+.heading {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+h2{
+    color:#6366F1;
+    font-size: .6rem;
+    padding-top: 3rem;
+    padding-bottom: .5rem;
+}
+.top-title{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: .5rem;
+
+}
+.desc{
+    color: #9CA3AF;
+    font-size: .7rem;
+    padding-bottom: 2rem;
+    margin-left:.6rem ;
+    margin-right: .6rem;
+   
+
+}
+.desc p{
+    padding: .2rem;
+    align-content: center;
+}
+
+
+
+.pricing-plan {
+    width: 80%;
+    height: auto;
+    font-size: .6rem;
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: .7rem;
+    background-color: #ffffff;
+   
+}
+
+.toggle-container {
+    display: inline-flex;
+    background-color: #000;
+    border-radius: 1.25rem;
+    padding: .2rem;
+    row-gap: 8rem;
+   
+}
+
+/* Style for each toggle button */
+.toggle-button {
+    padding: .5rem 1.25rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: .6rem;
+    border-radius: 1.25rem;
+    
+}
+
+.toggle-button.active {
+    background-color: #6c5ce7;
+    color: #fff;
+}
+
+
+
+.year{
+    width:15%;
+    background-color:#1D2432;
+    padding: .5rem;
+    align-items:end;
+    border-top-right-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+}
+
+
+.plans{
+    width: fit-content;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    background-color:#111827;
+    padding: 3rem;
+    column-gap: .8rem;
+    justify-content: center;
+   
+}
+
+/* freelancer plan */
+
+
+.freelancer{
+    width: fit-content;
+    border-radius:.5rem;
+    border-style: solid ;
+    border-color:#3a506b;
+    padding: 1rem;
+    
+}
+
+.freelancer h4{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: .7rem;
+    padding: .4rem;
+    align-items: start;
+}
+
+.freelancer p{
+    color:#9CA3AF;
+    font-size: .5rem;
+    padding-top: .5rem;
+}
+
+.freelancer h3 {
+    color: #ffffff;
+    font-weight: 800;
+    padding: .4rem;
+}
+
+.f-month{
+    color: #9CA3AF;
+    font-size: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .7rem;
+}
+
+.to-buy{
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    background-color:#29303D;
+    border-radius: .3rem;
+    font-size: .5rem;
+    padding: .3rem;
+    row-gap: 1rem;
+    border: none;
+    font-weight: 500;
+
+}
+
+.btn{
+    padding-top: .7rem;
+}
+
+
+/* startup plan */
+
+.all-startup{
+    width: fit-content;
+    /* height: auto; */
+    padding: 1rem;
+    border-style: solid;
+    border-color:#6366F1;
+    border-radius: .5rem;
+    background-color:#29303D;
+    padding-bottom: 2rem;
+    align-items: start;
+}
+
+.top-startup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.startup h4{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: .7rem;
+    padding: .3rem;
+}
+
+.popular h3{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: .5rem;
+    background-color: #6366F1;
+    border-radius: .5rem;
+    padding: .3rem;
+    
+
+}
+.bottom-startup p{
+    color: #9CA3AF;
+    font-size: .5rem;
+    padding-top: .5rem;
+
+}
+
+.bottom-startup h3{
+    color: #ffffff;
+    font-weight: 800;
+    padding: .4rem;
+}
+
+.bottom-startup button{
+    width: 100%;
+    height: auto;
+    background-color: #6366F1;
+    
+
+
+}
+
+
+/* enterprise plan */
+
+
+.enterprise{
+    width: fit-content;
+    /* height: auto; */
+    padding: 1rem;
+    border-style: solid;
+    border-color: #29303D;
+    border-radius: .5rem;
+    padding-bottom: 2rem;
+    align-items: start;
+}
+.enterprise h4{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: .7rem;
+    padding: .4rem;
+
+}
+
+.enterprise h3{
+    color: #ffffff;
+    font-weight: 800;
+    padding: .4rem;
+
+}
+.enterprise p{
+    color: #9CA3AF;
+    font-size: .5rem;
+    padding-top: .5rem;
+}
+
+.tick {
+    padding-right: .3rem;
+    
+}
+
+.packages{
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}

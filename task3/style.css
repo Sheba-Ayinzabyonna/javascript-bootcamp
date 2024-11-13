@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Serif';
+    letter-spacing: -0.031rem;
+}
+.full-container{
+    width: 100%;
+    height: auto;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+
+}
+
+/* top most section */
+.top-row-container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.5rem;
+    border-style:ridge;
+   
+    
+
+}
+
+.top-container{
+    width: 50%;
+    padding: 1.5rem;
+    border-right-style: inset;
+    border-start-start-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    
+}
+
+.top-rev-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: .7rem;
+}
+
+.overdue-container{
+    width: 50%;
+    padding: 1.5rem;
+    border-right-style: inset;
+}
+
+.overdue h6{
+    color: crimson;
+}
+
+.outstand-container{
+    width: 50%;
+    padding: 1.5rem;
+    border-right-style: inset;
+
+}
+.exp-container{
+    width: 50%;
+    padding: 1.5rem;
+    border-start-end-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+.exp h6{
+    color: crimson;
+
+}
+
+.amount p{
+    padding-top: .5rem;
+}
+
+/* - middle section  */
+.main-middle-container{
+    width: 80%;
+    height: auto;
+    border: color #000000;
+    background-color: #E4E0E1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+   
+}
+
+.date-container{
+    padding: 1.25rem;
+}
+
+.three-column-container{
+    display: flex;
+   
+   
+    
+}
+
+.first-column{
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: .5rem 1.5rem;
+    margin: 1rem;
+}
+.first-column h6{
+    font-size: 0.5rem;
+    color: #686D76;
+    
+}
+
+.first-column p{
+    font-size: .9rem;
+    padding-top: .3rem;
+    
+}
+
+.second-column {
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: .5rem 1.5rem;
+    margin: 1rem;
+}
+.second-column h6{
+    font-size: 0.5rem;
+    color: #686D76;
+}
+.second-column p {
+    font-size: .9rem;
+    padding-top: .3rem;
+}
+
+.third-column{
+    width: 50%;
+    background-color:#ffffff;
+    border-radius: 0.5rem;
+    padding: .5rem 1.5rem;
+    margin: 1rem;
+}
+
+.third-column h6{
+font-size: 0.5rem;
+color: #686D76;
+}
+
+.third-column p {
+    font-size: .9rem;
+    padding-top: .3rem;
+}
+
+
+/*  last section  */
+
+.last-container{
+    width: 80%;
+    height: auto;
+    background-color:#E4E0E1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+
+    
+}
+
+.date2-container {
+    padding: 1.25rem;
+    
+}
+.last-row-container{
+    display: flex;
+    margin: 0 1rem 1rem;
+    border-radius: .5rem;
+    
+}
+
+
+
+.left-container{
+    width: 50%;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-right-style:inset;
+    border-start-start-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+  
+}
+
+
+
+.rate-container{
+    width: 50%;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-right-style: inset;
+    
+    
+    
+}
+
+.click-container{
+    width: 50%;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-start-end-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+
+}
+
+.last-fig-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: .7rem;
+
+}
+
+.total-subcriber{
+    padding-top: .1rem;
+}
+
+.total-subcriber p {
+    color: #4B48E4;
+    font-size: .8rem;
+
+}
+
+.increment {
+    font-weight: 600;
+    font-size: .4rem;
+    color: #B6BBC4;
+    padding-left: .3rem;
+}
+
+
+h6{
+    color: #b7b7b7; 
+    color: #686D76;
+    font-size:.6rem;
+    
+}
+
+
+
+.percentage p{
+    background-color:#DCFCE7;
+    border-radius: 1rem;
+    color:#357B51 ;
+    font-weight: 600;
+}
+
+.low-percentage p{
+    background-color: #FEE2E2;
+    border-radius: 1rem;
+    color: #AC484F;
+    font-weight: 600;
+}
+
+
+
+
+.u-arrow{
+    width:1%;
+    color: #51D380;
+    padding: .5rem;
+}
+
+.d-arrow{
+    width:1%;
+    color: #F05959;
+    padding: .5rem;
+
+}
