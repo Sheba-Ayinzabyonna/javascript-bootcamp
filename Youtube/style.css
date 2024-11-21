@@ -148,7 +148,7 @@ input:focus {
   height: auto;
   background-color: #e00b68;
   padding: 10%;
-  border-radius: 1000000rem;
+  border-radius: 1.5rem;
   cursor: pointer;
   color: #ffffff;
 }
@@ -311,14 +311,17 @@ input:focus {
 .card-image {
   position: relative;
   padding: 0.5rem;
-  border-radius: 0.5rem;
-
+  
 }
 
 .card-image img {
   width: 100%;
   height: auto;
   display: block;
+  border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 .duration {
