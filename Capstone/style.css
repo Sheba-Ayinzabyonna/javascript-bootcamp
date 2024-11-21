@@ -210,52 +210,59 @@
   text-decoration: none;
   font-size: 0.8rem;
   color: #1a73e8;
+  
 }
 
+/* company */
+/* technologies  */
+/* research */
 
+.three-cards{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  flex-wrap: wrap;
+  column-gap:0rem;
+  margin-right: 3rem;
+}
 .card {
-  width: 320px;
+  width: 300px;
   height: auto;
   overflow: hidden;
-  border:0.01rem solid #d9d9d9;
+  border: 0.01rem solid #d9d9d9;
   background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: start;
+  align-items: center;
   margin-left: 6.5rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
- 
-  
 }
 
 .card-image img {
   width: 100%;
   height: auto;
-  
-  
-  
 }
 
 .card-content {
-  width:fit-content ;
+  width: fit-content;
   height: auto;
   display: flex;
   flex-direction: column;
   padding: 1rem 0.5rem 1rem 1rem;
   row-gap: 1rem;
- 
 }
 
-.top p{
+.top p {
   width: 100%;
   height: fit-content;
   font-size: 0.6rem;
   color: #606060;
- 
 }
 
 .top img {
@@ -264,22 +271,20 @@
   border-radius: 50%;
 }
 
-.top h2{
+.top h2 {
   font-size: 1.1rem;
   font-weight: 400;
   padding-top: 0.5rem;
-
 }
 
-.top h4{
+.top h4 {
   font-size: 0.8rem;
   color: #949494;
-  font-weight:400;
+  font-weight: 400;
   padding-top: 0.5rem;
-
 }
 
-.card-bottom{
+.card-bottom {
   width: fit-content;
   height: auto;
   display: flex;
@@ -287,10 +292,9 @@
   justify-content: space-between;
   align-items: start;
   column-gap: 10rem;
-  
 }
 
-.icon-bottom i{
+.icon-bottom i {
   color: #1a73e8;
   font-size: 1rem;
 }
