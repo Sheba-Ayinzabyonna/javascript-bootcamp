@@ -12,22 +12,28 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
 
 }
 
-.left-container {
-    width: 20%;
-    height: 100vh;
+.left-section {
+    width: 100%;
+    height: auto;
+    padding: 1rem 1rem 0.5rem 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: start;
     align-items: start;
+    color: #939598;
     background-color: #FAF9F8;
-    color:#939598 ;
-    /* padding: 5rem 7rem rem 0rem; */
-    /* padding-left: 1rem; */
+}
 
+.logo{
+    width: 106px;
+    height: 24px;
+    background-color: aqua;
 }
 
 .sidebar {
@@ -40,8 +46,39 @@
 
 }
 
+
+
+search-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+
+form input[type="text"] {
+    width: 100%;
+    padding: 1rem 2rem 1rem 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color:#F0EFEE ;
+    border-color: #F0EFEE ;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    background-image: url('./imgs/envelope.png');
+    background-repeat: no-repeat;
+    /* background-size: 20px 20px; */
+    background-position: 0.3rem;
+    color: #ddd;
+
+
+}
+
 /* top-left-section */
-.top-left-section {
+/* .top-left-section {
     width: 100%;
     height: auto;
     padding: 1rem 1rem 0.5rem 1rem;
@@ -52,7 +89,7 @@
     border-bottom: 1px solid #d4d4d4;
 
 
-}
+} */
 
 .menu-container {
     width: 100%;
@@ -102,21 +139,6 @@
     border-bottom: 1px solid #d4d4d4;
 }
 
-.you-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    padding: 0.5rem;
-    column-gap: 0.5rem;
-    justify-content: start;
-    align-items: center;
-}
-
-.you-container:hover {
-    background-color: #f2f2f2;
-    border-radius: 0.35rem;
-}
 
 .main-container{
     width: fit-content;
@@ -132,23 +154,7 @@
     /* padding: 1rem 0.5rem 0rem 0rem; */
 
 
-}
 
-.overall-bottom {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.bottom-right {
-    width: 85%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    row-gap: 2rem;
 
 }
 
