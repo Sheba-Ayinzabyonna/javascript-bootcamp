@@ -17,7 +17,7 @@
 }
 
 .left-container {
-    width: 15%;
+    width: 20%;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -25,6 +25,7 @@
     align-items: start;
     background-color: #FAF9F8;
     color:#939598 ;
+    /* padding: 5rem 7rem rem 0rem; */
     /* padding-left: 1rem; */
 
 }
@@ -120,12 +121,18 @@
 .main-container{
     width: fit-content;
     height: auto;
+  
+    
+    
+}
+
+.main-container p{
     font-size: 0.6rem;
     font-weight: 600;
     /* padding: 1rem 0.5rem 0rem 0rem; */
+
+
 }
-
-
 
 .overall-bottom {
     width: 100%;
