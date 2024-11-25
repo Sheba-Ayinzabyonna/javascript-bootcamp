@@ -857,8 +857,9 @@ Alphafold*/
 }
 
 .item:hover {
-  background-color: #f1f1f1;
-}
+  box-shadow: 0.1rem 0.1rem #f1f3f4;
+  cursor: pointer; 
+} */
 
 .item img {
   width: 24px;
@@ -870,6 +871,7 @@ Alphafold*/
   flex: 1;
   font-size: 16px;
 }
+
 
 .item a {
   text-decoration: none;
@@ -921,9 +923,7 @@ Alphafold*/
 .icons i{
   width: fit-content;
   height: auto;
- 
-  padding-bottom: 0.2rem;
-  padding-right: 2rem;
+  padding: 0.5rem;
   font-size: 1.5rem;
   font-weight: 300;
   font-size: 1.5rem;
@@ -978,7 +978,8 @@ Alphafold*/
 }
 
 .footer-section ul li a:hover {
-  text-decoration: underline;
+  
+  color: #000000;
 }
 
 footer form {
@@ -1003,6 +1004,10 @@ footer form input[type="email"] {
 
 }
 
+footer form input[type="email"]:hover{
+  border: 0.1rem solid #606060;
+}
+
 footer form label {
   font-size: 0.8rem;
   color: #666;
@@ -1016,6 +1021,9 @@ footer form label a {
 
 footer form label a:hover {
   text-decoration: underline;
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  padding: 0.2rem;
 }
 
 
@@ -1033,6 +1041,7 @@ footer form label a:hover {
 
 .footer-section button:hover {
   color: #005bb5;
+  border-color:#0073e6
 }
 
 .bottom-left {
@@ -1058,7 +1067,7 @@ footer form label a:hover {
 }
 
 .bottom-logo h1:hover {
-  background-color: #000000;
+  color: #000000;
   cursor: pointer;
 }
 
@@ -1099,7 +1108,7 @@ footer form label a:hover {
  
 }
 
-.about-google:hover {
+.about-google a:hover {
   color: #000000;
   cursor: pointer;
 }
@@ -1113,7 +1122,7 @@ footer form label a:hover {
   color: #666;
 }
 
-.products:hover {
+.products a:hover {
   cursor: pointer;
 
   color: #000000;
@@ -1129,7 +1138,7 @@ footer form label a:hover {
   color: #666;
 }
 
-.privacy:hover {
+.privacy a:hover {
   cursor: pointer;
 
   color: #000000;
@@ -1145,7 +1154,7 @@ footer form label a:hover {
   color: #666;
 }
 
-.terms:hover {
+.terms a:hover {
   cursor: pointer;
   color: #000000;
 }
