@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #202124;
+    color: white;
+    min-height: 100vh;
+}
+
+.profile-card {
+    text-align: center;
+    position: relative;
+    margin:10rem 0rem 0rem 0rem;
+}
+
+/* Profile image container */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    /* border: 3px solid white; */
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    height: calc(100vh - 80px);
+}
+
+.video-tile {
+   
+    position: relative;
+    background-color: #3c4043;
+    border-radius: 8px;
+    overflow: hidden;
+   
+}
+
+.video-tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.participant-name {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mute-indicator {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: rgba(32, 33, 36, 0.8);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.control-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #202124;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.meeting-code {
+    color: #e8eaed;
+    font-size: 14px;
+}
+
+.center-section {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.control-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #3c4043;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+    font-size: 1.5rem;
+}
+.tControl-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #202124;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+    font-size: 1.5rem;
+}
+
+.control-button:hover {
+    background-color: #484a4d;
+}
+
+.control-button.active {
+    background-color: #ea4335;
+}
+
+.end-call {
+    background-color: #ea4335;
+    padding: 0 24px;
+    border-radius: 20px;
+    width: auto;
+    font-size: 1.5rem;
+}
+
+.notification-badge {
+    position: relative;
+}
+
+.notification-badge::after {
+    content: "1";
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: #666;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+

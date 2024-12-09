@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organix - Task Dashboard</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                Organix.
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <nav class="nav-section">
+                <div class="nav-title">Main Menu</div>
+                <ul class="nav-items">
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">Projects</li>
+                    <li class="nav-item">Calendar</li>
+                    <li class="nav-item">Team Member</li>
+                    <li class="nav-item">Analytics</li>
+                    <li class="nav-item">Wallet</li>
+                    <li class="nav-item active">Tasks</li>
+                    <li class="nav-item">Mail</li>
+                </ul>
+            </nav>
+
+            <nav class="nav-section">
+                <div class="nav-title">Label</div>
+                <ul class="nav-items">
+                    <li class="nav-item">Marketing</li>
+                    <li class="nav-item">Development</li>
+                    <li class="nav-item">Design</li>
+                    <li class="nav-item">3D Modeling</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <h1 class="page-title">Tasks</h1>
+                <button class="add-task-btn">+ Add Task</button>
+            </header>
+
+            <div class="view-toggles">
+                <div class="view-toggle active">Board</div>
+                <div class="view-toggle">Table</div>
+                <div class="view-toggle">Calendar</div>
+            </div>
+
+            <div class="kanban-board">
+                <!-- To-Do Column -->
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2 class="column-title">To-Do</h2>
+                        <button>+</button>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-category design">DESIGN</div>
+                        <h3 class="task-title">Customer Journey Mapping</h3>
+                        <div class="task-company">Kidzzone</div>
+                        <div class="task-meta">
+                            <div class="task-priority">
+                                <span class="priority-indicator priority-medium"></span>
+                                Medium
+                            </div>
+                            <div>25 October</div>
+                        </div>
+                        <div class="task-metrics">
+                            <div class="metric">16</div>
+                            <div class="metric">21</div>
+                        </div>
+                        <div class="assignees">
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-category design">DESIGN</div>
+                        <h3 class="task-title">UI Component Modification</h3>
+                        <div class="task-company">Bookly</div>
+                        <div class="task-meta">
+                            <div class="task-priority">
+                                <span class="priority-indicator priority-medium"></span>
+                                Medium
+                            </div>
+                            <div>28 October</div>
+                        </div>
+                        <div class="task-metrics">
+                            <div class="metric">03</div>
+                            <div class="metric">32</div>
+                        </div>
+                        <div class="assignees">
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- In Progress Column -->
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2 class="column-title">In Progress</h2>
+                        <button>+</button>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-category development">DEVELOPMENT</div>
+                        <h3 class="task-title">Database Customization</h3>
+                        <div class="task-company">Uber</div>
+                        <div class="task-meta">
+                            <div class="task-priority">
+                                <span class="priority-indicator priority-medium"></span>
+                                Medium
+                            </div>
+                            <div>21 October</div>
+                        </div>
+                        <div class="task-metrics">
+                            <div class="metric">10</div>
+                            <div class="metric">06</div>
+                        </div>
+                        <div class="assignees">
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-category">3D MODELING</div>
+                        <h3 class="task-title">Fix Interior Planning</h3>
+                        <div class="task-company">Hotel Nice</div>
+                        <div class="task-meta">
+                            <div class="task-priority">
+                                <span class="priority-indicator priority-low"></span>
+                                Low
+                            </div>
+                            <div>13 October</div>
+                        </div>
+                        <div class="task-metrics">
+                            <div class="metric">13</div>
+                            <div class="metric">09</div>
+                        </div>
+                        <div class="assignees">
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Done Column -->
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2 class="column-title">Done</h2>
+                        <button>+</button>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-category design">DESIGN</div>
+                        <h3 class="task-title">Redesign WordPress Website</h3>
+                        <div class="task-company">Design Lab</div>
+                        <div class="task-meta">
+                            <div class="task-priority">
+                                <span class="priority-indicator priority-high"></span>
+                                High
+                            </div>
+                            <div>17 October</div>
+                        </div>
+                        <div class="task-metrics">
+                            <div class="metric">02</div>
+                            <div class="metric">29</div>
+                        </div>
+                        <div class="assignees">
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-category marketing">MARKETING</div>
+                        <h3 class="task-title">Facebook Ads Campaign</h3>
+                        <div class="task-company">Plantify</div>
+                        <div class="task-meta">
+                            <div class="task-priority">
+                                <span class="priority-indicator priority-medium"></span>
+                                Medium
+                            </div>
+                            <div>20 October</div>
+                        </div>
+                        <div class="task-metrics">
+                            <div class="metric">03</div>
+                            <div class="metric">17</div>
+                        </div>
+                        <div class="assignees">
+                            <div class="assignee"></div>
+                            <div class="assignee"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
