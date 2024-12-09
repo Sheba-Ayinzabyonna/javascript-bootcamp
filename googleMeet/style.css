@@ -7,7 +7,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     background-color: #202124;
-    color: white;
+    color:#ffffff;
     min-height: 100vh;
 }
 
@@ -24,7 +24,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
-    /* border: 3px solid white; */
+    
 }
 
 .profile-image img {
@@ -121,7 +121,7 @@ body {
     border-radius: 50%;
     border: none;
     background-color: #3c4043;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -135,7 +135,7 @@ body {
     border-radius: 50%;
     border: none;
     background-color: #202124;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -157,7 +157,18 @@ body {
     padding: 0 24px;
     border-radius: 20px;
     width: auto;
+  
     font-size: 1.5rem;
+}
+
+img{
+    color: #ffffff;
+}
+.call-end{
+  
+    width:30px;
+    height: 30px;
+
 }
 
 .notification-badge {
@@ -170,7 +181,7 @@ body {
     top: -4px;
     right: -4px;
     background-color: #666;
-    color: white;
+    color: #ffffff;
     font-size: 12px;
     padding: 2px 6px;
     border-radius: 10px;
