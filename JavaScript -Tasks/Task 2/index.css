@@ -24,7 +24,11 @@ body {
 
 .heading h1 {
     font-size: 2.5rem;
+    width: 400px;
     color: #1a1a1a;
+    background-color: #00ff8b;
+    margin-left:  25rem;
+    line-height: 3rem;
 }
 
 .heading p {
