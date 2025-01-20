@@ -15,27 +15,33 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    padding-top: 5rem;
+ 
 }
 
 .heading {
     text-align: center;
     margin-bottom: 40px;
+   
 }
 
 .heading h1 {
     font-size: 2.5rem;
     width: 400px;
     color: #1a1a1a;
-    background-color: #00ff8b;
     margin-left:  25rem;
-    line-height: 3rem;
+    line-height: 2.7rem;
 }
 
 .heading p {
     font-size: 1.2rem;
     color: #6a5eff;
     margin-top: 10px;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
 }
+
+/* mobile friendly */
 
 .features {
     display: grid;
@@ -48,6 +54,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
 }
 
 .feature h3 {
@@ -66,6 +73,219 @@ body {
     width: 100%;
     border-radius: 10px;
 }
+
+.mobile-preview {
+    background-color: #1e293b;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    color: #ffffff;
+}
+
+.mobile-preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-preview-header .logo {
+    height: 20px;
+}
+
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #2a334a;
+      position: relative;
+  }
+
+  .header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #4f78e8;
+  }
+
+  .header-icon {
+      font-size: 18px;
+      cursor: pointer;
+  }
+
+  .header .center-logo {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #4f78e8;
+      font-size: 20px;
+  }
+
+  .search {
+      margin-top: 20px;
+      position: relative;
+  }
+
+  .search input {
+      width: 100%;
+      padding: 10px 15px;
+      background-color: #2a334a;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 12px;
+  }
+
+  .search input::placeholder {
+      color: #767d91;
+  }
+
+
+
+
+
+/* .deployments {
+    margin-top: 10px;
+}
+
+.deployment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #111827;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.deployment-item .name {
+    font-size: 0.9rem;
+}
+
+.deployment-item .status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.deployment-item .status .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.status-active .dot {
+    background-color: #34d399;
+}
+
+.status-inactive .dot {
+    background-color: #d1d5db;
+}
+
+.time {
+    font-size: 0.8rem;
+    color: #9ca3af;
+} */
+
+ .deployments {
+     margin-top: 20px;
+ }
+
+ .deployments-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 15px;
+ }
+
+ .deployments-header h3 {
+     font-size: 16px;
+     font-weight: 500;
+     color: #ffffff;
+ }
+
+ .deployment {
+     padding: 10px;
+     background-color: #232b3d;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .deployment-header {
+     display: flex;
+     /* align-items: center;
+     justify-content: space-between; */
+    color: #767d91;
+ }
+
+ .deployment-header h4 {
+     font-size: 16px;
+     font-weight: 600;
+ }
+
+ .deployment-header small {
+     color: #767d91;
+ }
+
+ .status {
+     display: flex;
+     align-items: center;
+     margin: 10px 0;
+    
+ }
+
+ .status span {
+     display: inline-block;
+     width: 10px;
+     height: 10px;
+     margin-right: 8px;
+     border-radius: 50%;
+
+ }
+
+ .status.gray {
+     /* color: #767d91; */
+     display: flex;
+     flex-direction: row;
+     font-size: 1rem;
+  
+ }
+
+ .status span.gray {
+     background-color: #767d91;
+    
+ }
+
+ .status.green {
+     /* color: #43d78b; */
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+ }
+
+ .status span.green {
+     background-color: #43d78b;
+ }
+ .deploy{
+    color: #767d91;
+    column-gap: 0.8rem;
+    padding-right:1rem ;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .performance {
     display: flex;

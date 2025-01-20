@@ -1,56 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deploy Faster</title>
-  <link rel="stylesheet" href="index.css">
-  
-</head>
-<body>
-  <div class="container">
-    <div class="heading">
-      <p>Deploy faster</p>
-      <h1>Everything you need to deploy your app</h1>
-    </div>
-
-    <div class="features">
-      <div class="feature">
-        <h3>Mobile friendly</h3>
-        <p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
-        <img src="https://via.placeholder.com/300x500" alt="Mobile preview">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deploy Faster</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <p>Deploy faster</p>
+        <h1>Everything you need to deploy your app</h1>
       </div>
 
-      <div class="feature">
-        <h3>Performance</h3>
-        <div class="performance">
-          <p>1.04 s</p>
-          <div class="bar">
-            <div class="progress"></div>
+      <!-- mobile friendly -->
+
+      <div class="features">
+        <div class="feature">
+          <h3>Mobile friendly</h3>
+          <p>
+            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+            lorem cupidatat commodo.
+          </p>
+          <!-- <img src="https://via.placeholder.com/300x500" alt="Mobile preview"> -->
+          <div class="mobile-preview">
+           
+            <div class="header">
+              <div class="header-icon">&#9776;</div>
+              <div class="center-logo">&#x2248;</div>
+              <button class="header-icon">+</button>
+            </div>
+            <div class="search">
+              <input type="text" placeholder="Search projects..." />
+            </div>
+            
+            <div class="deployments">
+            <div class="deployments-header">
+                <h3>Deployments</h3>
+                <small>Sort by &#9662;</small>
+            </div>
+
+            <div class="deployment">
+               
+                  <div class="status gray">
+                  <span class="gray"></span>
+                    <h4>Planetaria / ios-app</h4>
+                  
+                </div>
+                
+                   <div class="status gray">
+                    <div class="deploy">
+                    Deploys from GitHub</div>  <div><small>Initiated 1m 32s ago</small></div></div>
+                    </div>
+                
+            </div>
+
+            <div class="deployment">
+              
+                   <div class="status green">
+                    <span class="green"></span>
+                    <h4>Planetaria / mobile-api</h4>
+                   
+                </div>
+               <div class="status gray">
+                    <div class="deploy">Deployed in 23s</div>  <div><small>Deployed 3m ago  .23s</small></div>
+                      
+                
+            </div>
+
+            <div class="deployment">
+                
+                  <div class="status gray">
+                      <span class="gray"></span>
+                    <h4>Tailwind Labs / tailwindcss.com</h4>
+                    
+                </div>
+                <div class="status gray">
+                  
+                    <div class="deploy">Deploys from GitHub</div>  <div><small>Initiated 5m 45s ago  .3m 4s</small></div>
+                </div>
+            </div>
+
+            <div class="deployment">
+              
+                 <div class="status green">
+                    <span class="green"></span>
+                    <h4>Tailwind Labs / tailwindui.com</h4>
+                    
+                </div>
+                
+                     <div class="deploy">Deploys from GitHub</div>  <div><small>Initiated 8m ago  .1m 30s</small></div>
+                </div>
+            
+        </div>
+
           </div>
-          <p>-22%</p>
+        </div>
+
+        <div class="feature">
+          <h3>Performance</h3>
+          <div class="performance">
+            <p>1.04 s</p>
+            <div class="bar">
+              <div class="progress"></div>
+            </div>
+            <p>-22%</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <h3>Powerful APIs</h3>
+          <p>
+            Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget
+            sem sodales gravida.
+          </p>
+          <code>
+            import { useState } from 'react';<br />
+            function Example() {<br />
+            const [enabled, setEnabled] = useState(false);<br />
+            return (<br />
+            <form>...</form>
+            );<br />
+            }
+          </code>
+        </div>
+
+        <div class="feature">
+          <h3>Security</h3>
+          <p>
+            Morbi viverra dui mi arcu sed tellus semper adipiscing suspendisse
+            semper morbi.
+          </p>
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Security illustration" />
         </div>
       </div>
-
-      <div class="feature">
-        <h3>Powerful APIs</h3>
-        <p>Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget sem sodales gravida.</p>
-        <code>
-          import { useState } from 'react';<br>
-          function Example() {<br>
-            const [enabled, setEnabled] = useState(false);<br>
-            return (<br>
-              <form>...</form>
-            );<br>
-          }
-        </code>
-      </div>
-
-      <div class="feature">
-        <h3>Security</h3>
-        <p>Morbi viverra dui mi arcu sed tellus semper adipiscing suspendisse semper morbi.</p>
-        <img src="https://via.placeholder.com/300x200" alt="Security illustration">
-      </div>
     </div>
-  </div>
-</body>
+  </body>
+</html>
