@@ -22,6 +22,7 @@ body {
 .heading {
     text-align: center;
     margin-bottom: 40px;
+    padding-bottom: 1rem;
    
 }
 
@@ -44,21 +45,70 @@ body {
 /* mobile friendly */
 
 .features {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 100%;
+    gap: 20px; */
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    column-gap: .8rem;
+
    
 }
 
-.feature {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+.mob-friend {
     width: fit-content;
+    height: auto;
+    background: white;
+    padding: 2rem;
+    /* border-radius: 10px; */
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.security {
+    width: fit-content;
+    height: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+
+
+}
+
+
+.power-api {
+    width: fit-content;
+    height: auto;
+    background: white;
+    padding: 2rem;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 30px;
+     border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+   
+}
+
+.power{
+    padding-top: 1rem;
     
 }
+
+
 
 .feat h3 {
     font-size: 1.2rem;
@@ -66,10 +116,11 @@ body {
     color: #333;
 }
 
-.feature p {
+.mob-friend p {
     font-size: 1rem;
     color: #555;
     margin-bottom: 20px;
+    padding-bottom: 1rem;
 }
 
 .feature img {
@@ -436,6 +487,7 @@ body {
      font-family: 'Courier New', Courier, monospace;
      font-size: 0.9rem;
      overflow: hidden;
+     padding-top: 1rem;
  }
 
  .tabs {
@@ -447,7 +499,7 @@ body {
 
  .tab {
      padding: 10px 15px;
-     font-size: 0.9rem;
+     font-size: 0.7rem;
      color: #9ca3af;
      cursor: pointer;
      flex-grow: 1;
@@ -479,13 +531,6 @@ body {
 
 
 
-
-
-
-
-
-
-
 .performance {
     display: flex;
     flex-direction: column;
@@ -512,10 +557,11 @@ body {
 }
 
 code {
-    background: #1a1a1a;
+    
     color: #00ff8b;
     display: block;
     padding: 15px;
     border-radius: 5px;
     font-family: monospace;
+    font-size: 0.8rem;
 }
